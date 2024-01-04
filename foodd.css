@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@200;400&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sizevw {
+    width: 80vw;
+    margin: auto;
+
+}
+
+.about {
+    margin-top: 60px;
+}
+
+.customers {
+    margin-top: 60px;
+    padding-top: 100px;
+}
+
+.hero {
+    margin-top: 60px;
+}
+
+#Recipes {
+    margin-top: 60px;
+}
+
+.sidesq {
+    width: 20%;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+}
+
+.menu>li>a {
+    text-decoration: none;
+    padding-inline: 10px;
+    font-size: 16px;
+    color: var(--Food-Delivery-PG, #212244);
+
+}
+
+.search-box {
+    /* justify-content: space-between !important;
+    align-items: center;
+    padding-inline: 10px !important; */
+    width: 80%;
+}
+
+#hero-col1 {
+    width: 45%;
+    /* border-radius: 1292px; */
+    /* background: rgba(249, 74, 61, 0.07);
+    filter: blur(280px);
+    opacity: 0.1; */
+}
+
+#hero-col2 {
+    width: 60%;
+    margin-top: 20px;
+}
+
+#hero-col1 {
+    color: #F94A3D;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 16px;
+    margin-top: 20px;
+}
+
+#tagbox {
+    color: #F94A3D;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 16px;
+    border-radius: 23px;
+    background: #FDECEC;
+    width: fit-content;
+    align-items: center;
+}
+
+#hero-col1>h1 {
+    color: #212244;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 70px;
+    margin-top: 20px;
+}
+
+#hero-col1>p {
+    color: #69697B;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 20px;
+}
+
+#door-text {
+    color: #F94A3D;
+}
+
+.card-title {
+
+    color: #212244;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40px;
+
+
+}
+
+#abouth2 {
+    color: #212244;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58px;
+}
+
+#aboutp {
+    color: #69697B;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 31px;
+}
+
+
+
+
+
+#recipeheading {
+    color: #212244;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+#recipemenu>ul>li:hover {
+    border-bottom: 2px solid #F94A3D;
+
+
+}
+
+
+#recipemenu {
+    display: flex;
+    justify-content: center;
+    color: #212244;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.cus1 {
+    width: 50%;
+}
+
+.cus1>img {
+    width: 84.344px;
+    height: 84.344px;
+    border-radius: 50%;
+
+}
+
+.cus1>h3 {
+    color: var(--Food-Delivery-PG, #212244);
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.cus1>p {
+    color: var(--Food-Text-Color-2, #69697B);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.customers {
+    background-color: #F8F8F8;
+}
+
+.customeropinion>h2 {
+    color: #212244;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: 0.96px;
+}
+
+.customerop {
+    width: 70%;
+}
+
+.datas>h3 {
+    color: #212244;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 42px;
+}
+
+
+.datas>p {
+    color: #69697B;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.customeropinion>p {
+    color: #69697B;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 38px;
+    padding-top: 50px;
+    border-top: 1px solid #69697B;
+}
+
+.customeropinion {
+    width: 50%;
+}
+
+.customerinfo {
+    width: 50%;
+}
+
+
+#appdownload>img {
+    margin-top: 60px;
+    width: 100%;
+}
+
+
+footer {
+    margin-top: -100px;
+    display: flex;
+    padding: 50px 10vw;
+}
+
+#fot-col-1 {
+    flex: 1;
+    width: 100%;
+    
+}
+
+#fot-col-2 {
+    flex: 3;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 16px;
+}
+
+#fot-col-2>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#fot-col-2>div>a {
+    color: #69697B;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+
+@media screen and (max-width:500px) {
+    main{
+        width: 100vw;
+    }
+    footer{
+        flex-direction: column;
+        align-items: center;
+    }
+    #fot-col-1 , #fot-col-2 , .customerinfo, .customeropinion, #Recipes, .about, .card, .hero-col1, .hero-col2, .navbar {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .customers{
+        flex-direction: column;
+        align-items: center;
+    }
+    .cus1{
+        width: 110%;
+    }
+
+}
